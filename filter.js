@@ -21,6 +21,12 @@ const people = [
   },
 ];
 
+const oldEnough = people.filter(person => person.age >=21);
+console.log(oldEnough)
+
+const paul = people.filter(person => person.name==='Paul')[0];
+//const paul = people.filter(p => p.name==='Paul')[0]; the same code, just instead of people use just letter 'p'
+console.log(paul);
 
 // Complex Filtering
 const students = [
@@ -55,3 +61,4 @@ const students = [
     ]
   },
 ];
+
